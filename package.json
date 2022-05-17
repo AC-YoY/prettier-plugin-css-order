@@ -1,6 +1,6 @@
 {
   "name": "@yoy20/prettier-plugin-css-order",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Sort CSS declarations in a certain order.",
   "type": "commonjs",
   "main": "./src/main.js",
