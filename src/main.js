@@ -24,7 +24,7 @@ module.exports = {
       type: "choice",
       description: "One of the built-in sort orders.",
       category: "@yoy20/css-sorter",
-      default: "concentric-css",
+      default: "cmexpro",
       choices: [
         {
           value: "cmexpro",
