@@ -1,5 +1,5 @@
 const postcss = require("postcss");
-const cssDeclarationSorter = require("css-declaration-sorter");
+const cssDeclarationSorter = require("@yoy20/css-sorter");
 const { runAsWorker } = require("sync-threads");
 const postcssScss = require("postcss-scss");
 

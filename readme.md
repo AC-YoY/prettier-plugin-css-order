@@ -1,3 +1,5 @@
+> forked from [prettier-plugin-css-order](https://github.com/Siilwyn/prettier-plugin-css-order)
+
 # CSS Order Prettier Plugin
 [![LGTM Grade][lgtm-badge]][lgtm]
 [![npm][npm-badge]][npm]

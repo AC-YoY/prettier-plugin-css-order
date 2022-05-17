@@ -23,13 +23,18 @@ module.exports = {
     order: {
       type: "choice",
       description: "One of the built-in sort orders.",
-      category: "css-declaration-sorter",
+      category: "@yoy20/css-sorter",
       default: "concentric-css",
       choices: [
         {
+          value: "cmexpro",
+          description:
+            "Order by cmexpro rules",
+        },
+        {
           value: "alphabetical",
           description:
-            "Default, order in a simple alphabetical manner from a - z.",
+            "Order in a simple alphabetical manner from a - z.",
         },
         {
           value: "smacss",
@@ -46,7 +51,7 @@ module.exports = {
     keepOverrides: {
       type: "boolean",
       description: "",
-      category: "css-declaration-sorter",
+      category: "@yoy20/css-sorter",
       default: true,
     },
   },
